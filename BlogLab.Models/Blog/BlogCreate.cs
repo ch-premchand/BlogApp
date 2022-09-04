@@ -5,7 +5,7 @@ using System.Text;
 
 namespace BlogLab.Models.Blog
 {
-    class BlogCreate
+    public class BlogCreate
     {
         public int BlogId { get; set; }
 

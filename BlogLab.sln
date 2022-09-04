@@ -4,6 +4,10 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 16.0.32802.440
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlogLab.Web", "BlogLab.Web\BlogLab.Web.csproj", "{5AF5C47E-F81E-48FB-A44A-47732E3D1400}"
+	ProjectSection(ProjectDependencies) = postProject
+		{DDB56A2B-F46A-434C-AEA0-768BDFA9759C} = {DDB56A2B-F46A-434C-AEA0-768BDFA9759C}
+		{0B3FFF64-7BC1-49F3-B0F0-3BA23332B0BC} = {0B3FFF64-7BC1-49F3-B0F0-3BA23332B0BC}
+	EndProjectSection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlogLab.Models", "BlogLab.Models\BlogLab.Models.csproj", "{DDB56A2B-F46A-434C-AEA0-768BDFA9759C}"
 EndProject
