@@ -1,3 +1,4 @@
+using BlogLab.Models.settings;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
@@ -23,6 +24,7 @@ namespace BlogLab.Web
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllersWithViews();
+            services.Configure<CloudinaryOptions>(Configuration.GetSection("CloudinaryOptions"));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
