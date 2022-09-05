@@ -5,7 +5,7 @@ using System.Text;
 
 namespace BlogLab.Models.Account
 {
-    class ApplicationUserCreate : ApplicationUserLogin
+    public class ApplicationUserCreate : ApplicationUserLogin
     {
         [MinLength(10, ErrorMessage = "must be at least 10-30 characters")]
         [MaxLength(30, ErrorMessage = "must be at least 10-30 characters")]
